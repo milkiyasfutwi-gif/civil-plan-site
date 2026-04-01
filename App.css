@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f0f14, #1a1114, #2d0b12);
+  color: #f8fafc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 40px 20px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+  color: #fdf2f8;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #d1d5db;
+}
+
+.year-section {
+  margin-bottom: 55px;
+}
+
+.year-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-left: 6px solid #7b1e3a;
+  padding-left: 14px;
+  color: #f9fafb;
+}
+
+.term-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.term-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.term-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(123, 30, 58, 0.35);
+}
+
+.term-card h3 {
+  margin-top: 0;
+  font-size: 1.35rem;
+  color: #fdf2f8;
+}
+
+.credits {
+  font-weight: bold;
+  color: #fca5a5;
+  margin-bottom: 15px;
+}
+
+.term-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.term-card li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+.term-card li::marker {
+  color: #b91c1c;
+}
